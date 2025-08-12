@@ -19,7 +19,7 @@ void bubbel_sort(int a[], int n) {
         a[i] = a[j-1];
         a[j-1] = temp;
             }
-    }
+        }
     // Print current pass
         printf("Pass %d: ", pass);
         for(int k = 0; k < n; k++) {
@@ -36,3 +36,4 @@ void bubbel_sort(int a[], int n) {
     printf("\n");
 
 }
+
